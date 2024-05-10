@@ -1,0 +1,61 @@
+Wood Store Application User Manual
+
+1. Introduction:
+
+
+The Wood Store Application is a simple program developed using Python and Tkinter GUI framework.
+It provides functionalities to sell wood, view orders, and check revenue details of the store.
+
+
+2. Getting Started:
+
+To run the application, ensure you have Python installed on your system.
+Download the provided Python script (wood_store.py) and save it to your local directory.
+Open a terminal or command prompt and navigate to the directory containing the script.
+Execute the script by running the command: python wood_store.py
+
+
+3. Application Overview:
+
+Upon launching the application, you will see the main window with options to "Sell Wood", "View Orders", and "Revenue".
+Each option performs a specific function, as described below:
+
+
+4. Selling Wood:
+
+Click on the "Sell Wood" button to open the "Sell Wood" window.
+In this window, you can add wood planks to the current order.
+Select the size of the plank from the dropdown menu.
+Enter the quantity of planks you want to add.
+Enter the density of the wood (in kg/m^3).
+Click on the "Add Plank" button to add the plank to the order.
+You can add multiple planks of different sizes and densities.
+To remove the last added plank, click on the "Remove Plank" button.
+Once you've added all the desired planks, click on the "Complete Order" button to finalize the order.
+A confirmation message will be displayed, showing the total price of the order.
+
+
+5. Viewing Orders:
+
+Click on the "View Orders" button to open the "View Orders" window.
+In this window, you can see the list of orders placed on the current day.
+Each order is displayed with its total price.
+
+Select an order from the list to view and edit its details.
+You can edit the density of each plank and delete individual planks from the order.
+Click on the "Save Changes" button after editing the density of a plank to update the total price of the order.
+Click on the "Delete Plank" button to remove a plank from the order.
+The updated total price of the order will be displayed after making changes.
+
+
+6. Revenue Details:
+
+Click on the "Revenue" button to view revenue details.
+A new window will open showing the total revenue generated from all orders placed on the current day.
+Each order's revenue contribution is listed, along with the total revenue at the bottom.
+
+
+7. Exiting the Application:
+
+To exit the application, simply close the main window by clicking the close button (X) on the window's title bar.
+Alternatively, you can use the standard window close shortcut for your operating system (e.g., Alt + F4 on Windows).
